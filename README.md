@@ -37,4 +37,8 @@ antlr4 -Dlanguage=JavaScript -o generated Analizador.g4
 ```
 ## Instrucciones de uso🛠
 1. Escribir un cadena valida o no valida en el archivo input.txt, por ejemplo:
+   . ! saludar "Juan Pérez" --modo=formal 123
+   . ! saludar @ana --modo=formal
+   . ! 123buscar "archivo"
+   . #ejecutar @usuario 123abc
 
