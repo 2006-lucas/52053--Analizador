@@ -23,7 +23,7 @@ Sigue estos pasos para clonar e instalar dependencias del proyecto:
 
 2. Ejecutar lo siguiente en el **Git Bash/PowerShell** (Windows) o **Una terminal** (Linux/Mac)
    ```bash
-   git clone https://github.com/AgustinArg13/51897---analizador.git
+   git clone 
 3. **Instalar Dependencias:**
    ```bash
    # Instalar dependencias de Node.js (ANTLR4 runtime y demás)
