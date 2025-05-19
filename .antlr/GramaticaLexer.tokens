@@ -1,0 +1,12 @@
+Prefijo=1
+Nombre=2
+Argumento=3
+ArgumentoPosicional=4
+ArgumentoOpcional=5
+NombreArgumento=6
+ValorArgumento=7
+TEXTO=8
+NUMERO=9
+PALABRA=10
+LETRA=11
+ESPACIOS=12
