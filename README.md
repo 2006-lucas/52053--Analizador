@@ -4,14 +4,14 @@ Este proyecto implementa un lenguaje de programación simple utilizando ANTLR4. 
 
 ## Instalacion
 
-1. Clona este repositorio: git clone 
+1. Clona este repositorio: git clone https://github.com/2006-lucas/52053--Analizador.git
 2. Instalar dependencias necesarias
 sh
 npm install
 
 3. Generar los archivos del parser y lexer con ANTLR
 sh
-antlr4 -Dlanguage=JavaScript -o generated Programa.g4
+antlr4 -Dlanguage=JavaScript -o generated Analizador.g4
 
 
 ## Instrucciones de uso
