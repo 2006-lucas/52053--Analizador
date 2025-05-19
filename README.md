@@ -4,16 +4,17 @@
 Analizador sintáctico para un lenguaje definido por EBNF que procesa archivos de entrada.
 
 ## 📋 Gramática
-![image]
 
+![][![image](https://github.com/user-attachments/assets/91496c8c-2e4d-40b5-ad55-fcc6abc1cdfc)
+]
 
-## 🔍 Requisitos Previos
+##  Requisitos 
 
 - **Git** ([Descargar](https://git-scm.com/downloads))
 - **Node.js v18+** ([Descargar](https://nodejs.org/))
 - **Java JRE 8+** (Solo para regenerar el analizador, [Descargar](https://www.java.com/download/))
 
-# 📥 Clonación e Instalación
+#  Clonación e Instalación
 
 Sigue estos pasos para clonar e instalar dependencias del proyecto:
 
