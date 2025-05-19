@@ -1,6 +1,16 @@
-# Lenguaje.g4
 
-Este proyecto implementa un lenguaje de programación simple utilizando ANTLR4. Está diseñado para demostrar el proceso de análisis léxico, sintáctico y semántico. El lenguaje permite imprimir mensajes en consola, repetir instrucciones y finalizar la ejecución mediante una condición booleana.
+# Analizador de Lenguaje Específico
+
+Analizador sintáctico para un lenguaje definido por EBNF que procesa archivos de entrada.
+
+## 📋 Gramática
+```ebnf
+<Comando>::= <PrefijoComando> <NombreComando> {<Argumento>}
+<PrefijoComando>::="1" | "2" | "#" | "&"
+<NombreComando>::= <Palabra>
+<Argumento>::= <ArgumentoPosicional> | <ArgumentoOpcional>
+<ArgumentoPosicional>::= <Texto> | <Palabra> | <Numero>
+<ArgumentoOpcional>::= "1" | <NombreArgumento> ["=" <ValorArgumento>] | "." <Letra> [<ValorArgumento>]
 
 ## Instalacion
 
