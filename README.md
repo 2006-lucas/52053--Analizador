@@ -5,8 +5,9 @@ Analizador sintáctico para un lenguaje definido por EBNF que procesa archivos d
 
 ## 📋 Gramática
 
-![][![image](https://github.com/user-attachments/assets/91496c8c-2e4d-40b5-ad55-fcc6abc1cdfc)
+![![ScreenHunter_642 May  19 16 39](https://github.com/user-attachments/assets/c94ba2fe-bbb6-4272-95ef-bb67a87f9be8)
 ]
+
 
 ##  Requisitos 
 
