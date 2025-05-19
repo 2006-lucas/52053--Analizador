@@ -4,60 +4,28 @@
 Analizador sintáctico para un lenguaje definido por EBNF que procesa archivos de entrada.
 
 ## 📋 Gramática
-```ebnf
-<Comando>::= <PrefijoComando> <NombreComando> {<Argumento>}
-<PrefijoComando>::="1" | "2" | "#" | "&"
-<NombreComando>::= <Palabra>
-<Argumento>::= <ArgumentoPosicional> | <ArgumentoOpcional>
-<ArgumentoPosicional>::= <Texto> | <Palabra> | <Numero>
-<ArgumentoOpcional>::= "1" | <NombreArgumento> ["=" <ValorArgumento>] | "." <Letra> [<ValorArgumento>]
-
-## Instalacion
-
-1. Clona este repositorio: git clone https://github.com/2006-lucas/52053--Analizador.git
-2. Instalar dependencias necesarias
-sh
-npm install
-
-3. Generar los archivos del parser y lexer con ANTLR
-sh
-antlr4 -Dlanguage=JavaScript -o generated Analizador.g4
+![image]
 
 
-## Instrucciones de uso
-1. Escribir un programa en el archivo input.txt, por ejemplo:
-sh
-repetir{
-  imprimir("Hola!");
-  imprimir("Como estas?");
-  salir;
-} hasta verdadero;
- 
+## 🔍 Requisitos Previos
 
-2. Ejecutar el intérprete:
-sh
-npm start
+- **Git** ([Descargar](https://git-scm.com/downloads))
+- **Node.js v18+** ([Descargar](https://nodejs.org/))
+- **Java JRE 8+** (Solo para regenerar el analizador, [Descargar](https://www.java.com/download/))
 
-3. Vera en la consola
+# 📥 Clonación e Instalación
 
-    - La tabla de tokens generados por el lexer.
-    - El árbol de derivación.
-    - La ejecución de las instrucciones definidas en el input.
+Sigue estos pasos para clonar e instalar dependencias del proyecto:
 
-![image](https://github.com/user-attachments/assets/eeb9b832-d533-425f-83d3-5312f6e1f447)
+1. **Abre Git Bash/PowerShell** (Windows) o **Una terminal** (Linux/Mac) en la carpeta donde quieres clonar el repositorio Github.
 
-4. Para ver el parser tree Apretar F5
+2. Ejecutar lo siguiente en el **Git Bash/PowerShell** (Windows) o **Una terminal** (Linux/Mac)
+   ```bash
+   git clone https://github.com/AgustinArg13/51897---analizador.git
+3. **Instalar Dependencias:**
+   ```bash
+   # Instalar dependencias de Node.js (ANTLR4 runtime y demás)
+   npm install
 
-![image](https://github.com/user-attachments/assets/f04732ea-d440-46ec-ae4c-f2457e0794a3)
-
-### Atencion
-Abrir vscode en la carpeta lenguaje no en la carpeta 52519, por lo contrario no mostrará el arbol ya que vscode tomará el lauch.json de la carpeta raiz(52519) el cual no esta configurado para mostrar el parser tree.
-
-## Comentarios adiccionales
-1. No es necesario el archivo input.txt es posible eliminarlo y el progrma seguira funcionando.
-
-    Si lo elimina se le pedira en la terminal que ingresar una cadena para analizar
-   
-3. Si hay un error de sintaxis en la cadena ah anlizar el parser dará error y mostrara la tabla de lexemas y tokens con cada una de las letras como lexemas.
-
-![image](https://github.com/user-attachments/assets/e124857f-db9f-489a-a337-8161b6f63522)
+   # Instalar ANTLR4 globalmente (opcional, solo si necesitas regenerar el analizador)
+   npm install -g antlr4
