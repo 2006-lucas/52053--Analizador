@@ -31,3 +31,7 @@ Sigue estos pasos para clonar e instalar dependencias del proyecto:
 
    # Instalar ANTLR4 globalmente (opcional, solo si necesitas regenerar el analizador)
    npm install -g antlr4
+4. 3. Generar los archivos del parser y lexer con ANTLR
+```sh
+antlr4 -Dlanguage=JavaScript -o generated Analizador.g4
+```
