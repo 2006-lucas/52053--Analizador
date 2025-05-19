@@ -56,7 +56,9 @@ npm start
     - La ejecución de las instrucciones definidas en el input.
    
 4. Para ver el parser tree Apretar F5
-   ![image](https://github.com/user-attachments/assets/fa436cc7-c3d5-459a-83d2-a864b5d88f40)
    
-  ### Atencion
+   ![image](https://github.com/user-attachments/assets/fa436cc7-c3d5-459a-83d2-a864b5d88f40)
+
+   
+### Atencion
 Abrir vscode en la carpeta lenguaje no en la carpeta 52053, por lo contrario no mostrará el arbol ya que vscode tomará el lauch.json de la carpeta raiz(52053) el cual no esta configurado para mostrar el parser tree.
