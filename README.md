@@ -34,7 +34,7 @@ Sigue estos pasos para clonar e instalar dependencias del proyecto:
  4. Generar los archivos del parser y lexer con ANTLR
 ```bash
 antlr4 -Dlanguage=JavaScript -o generated Analizador.g4
-
+```
 ## Instrucciones de uso🛠
 1. Escribir un cadena valida o no valida en el archivo input.txt, por ejemplo:
 
